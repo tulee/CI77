@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh ba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="addBar">
+            <input type="text" id="inputName" placeholder="Name"/>
+            <input type="number" id="inputPhone" placeholder="Phone"/>
+            <button class="btn" onclick="addContact()">Add</button>
+        </div>
+        <div class="toolBar">
+            <input onkeyup="search()" type="text" id="inputSearch" placeholder="Input Search"/>
+            <button class="btn" onclick="search()">Search</button>
+            <button class="btn" onclick="deleteDup()">Delete Dups</button>
+        </div>
+        <div class="contact">
+            <ul id="contactList">
+                <!-- <li class="listContainer show">
+                    <div class="contactName show">Jack</div>
+                    <div class="contactPhone show">0924240240</div>
+                </li>
+                <li class="listContainer show">
+                    <div class="contactName show">John</div>
+                    <div class="contactPhone show">0924240229</div>
+                </li>
+                <li class="listContainer show">
+                    <div class="contactName show">Ran</div>
+                    <div class="contactPhone show">0939130291</div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
