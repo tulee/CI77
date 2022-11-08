@@ -1,0 +1,23 @@
+.inputItemBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    padding: 10px 5px;
+    margin-right: 6px;
+}
+
+.inputName,.inputPhone {
+    width: 40%;
+}
+
+.addBtn{
+    width: 20%;
+}
+
+button {
+    margin-left: 6px;
+}

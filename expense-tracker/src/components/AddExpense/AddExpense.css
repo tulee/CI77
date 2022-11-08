@@ -1,0 +1,52 @@
+.hidden{
+    display: none;
+}
+
+.addBar{
+    border-radius: 10px;
+    background-color: #a892ee;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+.newExpenseBtn, .addOrders button{
+    border-radius: 10px;
+    color:white;
+    padding: 16px 32px;
+    background-color: #40005d;
+}
+
+.addOrders button{
+    margin-right: 15px;
+}
+
+.addForm input{
+    width: 20rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.8rem;
+}
+
+.expenseField{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.addFields{
+    margin-bottom: 30px;
+}
+
+.addOrders{
+    display: flex;
+    justify-content: right;
+}

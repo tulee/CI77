@@ -1,0 +1,43 @@
+.expenseItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 6px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.expenseDate{
+    border-radius: 10px;
+    border: 1px solid white;
+    color:white;
+    background-color: black;
+    width: 100px;
+    height: 70px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: smaller;
+}
+
+.expenseTitle{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.expenseAmount{
+    padding: 10px 30px;
+    background-color: #40005d;
+    color: white;font-size: 20px;
+    border-radius:10px;
+    font-weight: bold;
+    margin-right: 20px;
+    border: 1px solid white;
+}

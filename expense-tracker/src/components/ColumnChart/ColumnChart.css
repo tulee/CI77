@@ -1,0 +1,26 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnBar{
+    height: 150px;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 12px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #c3b4f3;
+}
+
+.fillBar{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.titleColumn{
+    font-size: small;
+    margin-top: 6px;
+}

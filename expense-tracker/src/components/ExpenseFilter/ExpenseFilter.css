@@ -1,0 +1,18 @@
+.titleFilter{
+    color: white;
+    font-weight: bold;
+}
+
+.expenseFilter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+select{
+    padding: 0.5rem 3rem;
+    font-weight: 700;
+    border-radius: 6px;
+}

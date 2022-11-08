@@ -1,0 +1,21 @@
+.appContainer{
+    width: 50rem;
+    margin: auto;
+    padding: 20px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.expenseInfo{
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.expenseList{
+    display: flex;
+    flex-direction: column;
+}
