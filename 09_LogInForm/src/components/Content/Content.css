@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 16px;
+}
+.headForm{
+    background: gainsboro;
+    text-align: center;
+    padding: 10px;
+}
+.bodyForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+}
+.inputUserName{
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 16px;
+}
+.formBtn{
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+.textNotice{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.welcomeNotice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

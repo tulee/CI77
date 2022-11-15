@@ -1,0 +1,14 @@
+.footerBar{
+    position: fixed;
+    bottom: 0px;
+    background-color: gainsboro;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.languageSelect{
+    font-size: 20px;
+    padding: 5px;
+}

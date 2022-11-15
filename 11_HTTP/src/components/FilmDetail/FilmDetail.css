@@ -1,0 +1,18 @@
+.filmDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.filmPoster{
+    width: 100%;
+}
+
+.filmTitle{
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 90px;
+    background-color: rgb(128,36,8);
+    color: white;
+    height: 80px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cartBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(83,47,24);
+    color: white;
+    padding: 2px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    height: 40px;
+}
+.cartAmountText{
+    background-color: red;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+@keyframes aniCartBtn{
+    0% {zoom:100%;width: 200px;height: 40px;}
+    50% {zoom:110%;width: 220px;height: 44px;}
+    100% {zoom: 100%;width: 200px;height: 40px;}
+}

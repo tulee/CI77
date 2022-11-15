@@ -1,0 +1,42 @@
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(128,36,8);
+    padding: 20px 0px;
+}
+.cartItemLeft{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: left;
+}
+.cartCal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.cartItemAmount{
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding: 0px 10px;
+    align-items: center;
+}
+.cartItemMoney{
+    font-size: 16px;
+    color: rgb(128,36,8);
+}
+.cartItemRight button{
+    margin: 0px 5px;
+    width: 50px;
+    text-align: center;
+    background: white;
+    border: 2px solid rgb(128,36,8);
+    font-size: 20px;
+    border-radius: 6px;
+}

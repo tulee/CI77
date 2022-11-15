@@ -1,0 +1,13 @@
+.container{
+    width: 60%;
+    font-size: 25px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+}

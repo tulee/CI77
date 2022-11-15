@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.logo{
+    margin-left: 50px;
+}
+.headerTitle{
+    margin-right: 50px;
+}
